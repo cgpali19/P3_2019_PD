@@ -19,7 +19,7 @@ def move(my_history, their_history, my_score, their_score):
     '''
     if (my_score <= 0):
         return 'b'
-    elif (my_score > (their_score + 3)):
+    elif (my_score > (their_score + 300)):
         return 'b'
     else:
         return 'c'
